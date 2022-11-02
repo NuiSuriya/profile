@@ -1,0 +1,102 @@
+body{
+  background-color: #815B5B;
+  text-align: center;
+}
+
+h1{
+  color: #002E94 ;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px
+}
+p{
+  color: #9E7676 ;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: normal;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+a{
+color: #ffffff;
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+}
+a:hover{
+  color: #372948;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  color: #3C2317;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 1px auto;
+  padding: 20px 3px;
+  border-radius: 5px;
+}
+
+ul{
+  padding: 0px;
+}
+
+.list-in-line li{
+list-style: none;
+display: inline;
+}
+
+
+i{
+  color: #5C2E7E ;
+  font-size: 50px;
+}
+
+i:hover{
+  color: #AA8B56 ;
+}
+
+#profile_pic{
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-white{
+  background-color: #F0EBCE;
+  margin:10px 50px;
+  padding: 25px 25px;
+  border-radius: 20px;
+}
+
+.button{
+  background-color: #6e5f09;
+  margin: 16px 16px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.shadowed{
+box-shadow: 8px 8px 8px rgb(47, 39, 39);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
